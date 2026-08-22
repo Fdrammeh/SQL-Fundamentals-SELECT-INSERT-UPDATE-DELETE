@@ -28,9 +28,6 @@ students_names = [
 ]
 
 
-# for name, gpa, grade in students_names:
-#     #print("adding:", name, gpa, grade)
-#     add_student(name, gpa, grade)
 
 
 cursor.execute("SELECT * FROM students")
